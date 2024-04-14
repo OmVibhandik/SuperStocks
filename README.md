@@ -48,7 +48,7 @@ To run the project locally, follow the steps below:
 3. Start the backend server:
 
     ```shell
-    npm start
+    nodemon
     ```
 
     The server should start running on the specified port (e.g., `http://localhost:3000`).
@@ -74,6 +74,15 @@ To run the project locally, follow the steps below:
     ```
 
     The application should start running on the specified port (e.g., `http://localhost:3000`).
+
+## Screenshot
+
+Here's a screenshot of the web application for reference:
+
+
+![All Stock List](https://github.com/OmVibhandik/SuperStocks/assets/96574566/046da796-d094-4d2d-b46d-9ae729db46f8)
+![Top 5 stock](https://github.com/OmVibhandik/SuperStocks/assets/96574566/c738798f-800e-4446-830c-bf2d7adee8d6)
+
 
 ## Additional Notes
 
