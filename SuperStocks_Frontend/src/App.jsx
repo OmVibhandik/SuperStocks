@@ -14,12 +14,11 @@ const App = () => {
   const url="https://superstocks.onrender.com";
   
   const dummyStocks = [
-    { name: 'Stock 1', symbol: 'STK1', price: 100, lastUpdated: '2024-04-11 09:00:00' },
-    { name: 'Stock 2', symbol: 'STK2', price: 1020, lastUpdated: '2024-04-11 09:00:00' },
+    
   ];
 
   const dummyTopStocks = [
-    { name: 'Top Stock 1', symbol: 'TOP1', profit: 50 },
+    
   ];
 
   const fetchAllStocks=()=>{
