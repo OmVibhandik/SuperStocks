@@ -88,5 +88,5 @@ Here's a screenshot of the web application for reference:
 ## Additional Notes
 
 - The application uses dummy data to represent stocks and their attributes
-- _Pagination_ has been implimented on `All Stock List` in order to prevent infinite scrolling.
+- `Pagination` has been implimented on _All Stock List_ in order to prevent infinite scrolling.
 
