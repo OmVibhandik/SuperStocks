@@ -51,8 +51,6 @@ To run the project locally, follow the steps below:
     nodemon
     ```
 
-    The server should start running on the specified port (e.g., `http://localhost:3000`).
-
 ### Running the Frontend
 
 1. Navigate to the `frontend` directory:
@@ -72,8 +70,6 @@ To run the project locally, follow the steps below:
     ```shell
     npm run dev
     ```
-
-    The application should start running on the specified port (e.g., `http://localhost:3000`).
 
 ## Screenshot
 
