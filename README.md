@@ -80,10 +80,10 @@ To run the project locally, follow the steps below:
 Here's a screenshot of the web application for reference:
 
 #### All Stock List
-![All Stock List](https://github.com/OmVibhandik/SuperStocks/assets/96574566/046da796-d094-4d2d-b46d-9ae729db46f8)
+![Top 5 stock](https://github.com/OmVibhandik/SuperStocks/assets/96574566/c738798f-800e-4446-830c-bf2d7adee8d6)
 
 #### Top 5 stock
-![Top 5 stock](https://github.com/OmVibhandik/SuperStocks/assets/96574566/c738798f-800e-4446-830c-bf2d7adee8d6)
+![All Stock List](https://github.com/OmVibhandik/SuperStocks/assets/96574566/046da796-d094-4d2d-b46d-9ae729db46f8)
 
 ## Additional Notes
 
