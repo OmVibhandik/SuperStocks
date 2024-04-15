@@ -40,12 +40,14 @@ const App = () => {
   }
 
   const handleSearch = (term) => {
-    fetch(url+'/search/'+term) 
+    const id = setTimeout(()=>{
+      fetch(url+'/search/'+term) 
       .then((response) => response.json())
       .then((data) => {
         setStocks(data);
       })
-      .catch((error) => console.error('Error fetching stocks:', error));
+      .catch((error) => console.error('Error fetching stocks:', error))
+    }, 1500);  
   };
 
   useEffect(() => {
