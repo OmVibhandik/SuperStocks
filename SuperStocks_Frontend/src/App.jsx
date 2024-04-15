@@ -6,10 +6,13 @@ import TopStocks from './components/TopStocks';
 import './App.css'
 
 
+
 const App = () => {
   const [stocks, setStocks] = useState([]);
   const [topStocks, setTopStocks] = useState([]);
 
+  const url="https://superstocks.onrender.com";
+  
   const dummyStocks = [
     { name: 'Stock 1', symbol: 'STK1', price: 100, lastUpdated: '2024-04-11 09:00:00' },
     { name: 'Stock 2', symbol: 'STK2', price: 1020, lastUpdated: '2024-04-11 09:00:00' },
@@ -20,7 +23,7 @@ const App = () => {
   ];
 
   const fetchAllStocks=()=>{
-    fetch('http://localhost:4001/getAllStocks')
+    fetch(url+'/getAllStocks')
       .then((response) => response.json())
       .then((data) => {
         setStocks(data);
@@ -29,7 +32,7 @@ const App = () => {
   }
 
   const fetchTopGainers=()=>{
-    fetch('http://localhost:4001/getTopGainers') 
+    fetch(url+'/getTopGainers') 
       .then((response) => response.json())
       .then((data) => {
         setTopStocks(data);
@@ -38,7 +41,7 @@ const App = () => {
   }
 
   const handleSearch = (term) => {
-    fetch('http://localhost:4001/search/'+term) 
+    fetch(url+'/search/'+term) 
       .then((response) => response.json())
       .then((data) => {
         setStocks(data);
